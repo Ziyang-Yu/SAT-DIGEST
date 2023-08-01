@@ -1,0 +1,9 @@
+.eggs/
+build/
+digest.egg-info/
+digest/__pycache__
+digest/_async.so
+digest/_relabel.so
+digest/models/__pycache__
+digest/auxiliary_models/__pycache__
+run/__pycache__

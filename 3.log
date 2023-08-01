@@ -1,0 +1,204 @@
+['/home/ubuntu/version_2/digest_yzy/serverless_gnn-main/digest']
+ModuleSpec(name='_relabel', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x7fcef2d6b8e0>, origin='/home/ubuntu/version_2/digest_yzy/serverless_gnn-main/digest/_relabel.so')
+model:
+  name: GAT
+  norm: false
+  loop: false
+  params:
+    architecture:
+      num_layers: 2
+      hidden_channels: 256
+      hidden_heads: 1
+      dropout: 0.3
+      out_heads: 1
+    num_parts: 2
+    batch_size: 1
+    max_steps: 2
+    pool_size: 2
+    num_workers: 0
+    lr: 0.01
+    reg_weight_decay: 0.0
+    nonreg_weight_decay: 0.0
+    grad_norm: none
+    epochs: 800
+dataset:
+  name: flickr
+device: 0
+root: /dev
+log_every: 1
+
+self.device is  cuda:3
+Loading data... flickr/4/nodes_in_out.pickle
+1
+Done! [0.00s]
+load...
+finish load...
+### Epoch  0  ###
+Init receiver takes  0.08621931076049805
+get all pull takes  0.16254830360412598
+Start local training!
+None
+None
+None
+local train takes  2.280430793762207
+aggregation takes  0.1901230812072754
+get all push takes  2.1457672119140625e-06
+get all loss takes  0.01508188247680664
+### Epoch  1  ###
+get all pull takes  1.1920928955078125e-06
+Start local training!
+None
+None
+None
+local train takes  1.028752326965332
+aggregation takes  0.4737565517425537
+get all push takes  2.1457672119140625e-06
+get all loss takes  0.003939151763916016
+### Epoch  2  ###
+get all pull takes  1.1920928955078125e-06
+Start local training!
+None
+None
+None
+local train takes  0.855349063873291
+aggregation takes  0.4676518440246582
+get all push takes  2.6226043701171875e-06
+get all loss takes  0.0020978450775146484
+### Epoch  3  ###
+get all pull takes  1.9073486328125e-06
+Start local training!
+None
+None
+None
+local train takes  0.968548059463501
+aggregation takes  0.46866583824157715
+get all push takes  1.6689300537109375e-06
+get all loss takes  0.013873815536499023
+### Epoch  4  ###
+get all pull takes  1.430511474609375e-06
+Start local training!
+None
+None
+None
+local train takes  1.066084861755371
+aggregation takes  0.28956055641174316
+get all push takes  2.1457672119140625e-06
+get all loss takes  0.003279447555541992
+### Epoch  5  ###
+get all pull takes  2.6226043701171875e-06
+Start local training!
+None
+None
+None
+local train takes  0.9435751438140869
+aggregation takes  0.41482973098754883
+get all push takes  2.1457672119140625e-06
+get all loss takes  0.00315093994140625
+### Epoch  6  ###
+get all pull takes  1.9073486328125e-06
+Start local training!
+None
+None
+None
+local train takes  0.8926217555999756
+aggregation takes  0.45763063430786133
+get all push takes  3.337860107421875e-06
+get all loss takes  0.0023560523986816406
+### Epoch  7  ###
+get all pull takes  3.0994415283203125e-06
+Start local training!
+None
+None
+None
+local train takes  1.09275484085083
+aggregation takes  0.44768476486206055
+get all push takes  1.9073486328125e-06
+get all loss takes  0.006252765655517578
+### Epoch  8  ###
+get all pull takes  1.9073486328125e-06
+Start local training!
+None
+None
+None
+local train takes  0.9755353927612305
+aggregation takes  0.4618971347808838
+get all push takes  2.6226043701171875e-06
+get all loss takes  0.0036182403564453125
+### Epoch  9  ###
+get all pull takes  1.6689300537109375e-06
+Start local training!
+None
+None
+None
+local train takes  0.987417459487915
+aggregation takes  0.4318861961364746
+get all push takes  0.04269838333129883
+get all loss takes  0.021338939666748047
+### Epoch  10  ###
+Init receiver takes  0.026580333709716797
+get all pull takes  0.5130610466003418
+Start local training!
+None
+None
+None
+local train takes  1.4131054878234863
+aggregation takes  0.181351900100708
+get all push takes  1.6689300537109375e-06
+get all loss takes  0.0032966136932373047
+### Epoch  11  ###
+get all pull takes  1.9073486328125e-06
+Start local training!
+None
+None
+None
+local train takes  0.7778041362762451
+aggregation takes  0.6550796031951904
+get all push takes  1.9073486328125e-06
+get all loss takes  0.0010380744934082031
+### Epoch  12  ###
+get all pull takes  1.430511474609375e-06
+Start local training!
+None
+None
+None
+local train takes  0.8256545066833496
+aggregation takes  0.5989124774932861
+get all push takes  1.6689300537109375e-06
+get all loss takes  0.0042018890380859375
+### Epoch  13  ###
+get all pull takes  1.430511474609375e-06
+Start local training!
+None
+None
+None
+local train takes  0.8547489643096924
+aggregation takes  0.545072078704834
+get all push takes  1.430511474609375e-06
+get all loss takes  0.0018362998962402344
+### Epoch  14  ###
+get all pull takes  1.430511474609375e-06
+Start local training!
+None
+None
+None
+local train takes  0.8282568454742432
+aggregation takes  0.46006011962890625
+get all push takes  1.430511474609375e-06
+get all loss takes  0.022875308990478516
+### Epoch  15  ###
+get all pull takes  1.6689300537109375e-06
+Start local training!
+None
+None
+None
+local train takes  0.792485237121582
+aggregation takes  0.4599778652191162
+get all push takes  1.430511474609375e-06
+get all loss takes  0.0034759044647216797
+### Epoch  16  ###
+get all pull takes  1.9073486328125e-06
+Start local training!
+None
+None
+None
+local train takes  0.7757053375244141
